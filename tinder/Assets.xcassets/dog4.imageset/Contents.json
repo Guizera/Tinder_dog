@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pastor-alemao.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
