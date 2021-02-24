@@ -140,6 +140,17 @@ extension MatchViewController {
         detailViewController.user = user
         detailViewController.modalPresentationStyle = .fullScreen
         
+        detailViewController.callback = { (user, action) in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                if action == .deslike {
+                    self.deslikeClickButton()
+                } else {
+                    self.likeClickButton()
+                }
+            }
+            
+        }
+        
         self.present(detailViewController, animated: true, completion: nil)
     }
     

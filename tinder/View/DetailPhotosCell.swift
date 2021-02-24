@@ -9,7 +9,9 @@ import UIKit
 
 class DetailPhotosCell: UICollectionViewCell {
     
-    let descriptionLabel: UILabel = .textBoldLabel(26)
+    let descriptionLabel: UILabel = .textBoldLabel(16)
+    
+    let sliderViewController = SliderViewController()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,6 +20,12 @@ class DetailPhotosCell: UICollectionViewCell {
         
         addSubview(descriptionLabel)
         descriptionLabel.fill(top: topAnchor, leading: leadingAnchor, trailing: trailingAnchor, bottom: nil, padding: .init(top: 0, left: 20, bottom: 0, right: 20))
+        
+        addSubview(sliderViewController.view)
+        sliderViewController.view.fill(top: descriptionLabel.bottomAnchor,
+                                       leading: leadingAnchor,
+                                       trailing: trailingAnchor,
+                                       bottom: bottomAnchor)
         
         
     }

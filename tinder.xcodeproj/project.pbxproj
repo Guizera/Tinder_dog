@@ -12,6 +12,8 @@
 		3F2880D325E5AB9000DB2183 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880D225E5AB9000DB2183 /* DetailHeaderView.swift */; };
 		3F2880D825E5B9F800DB2183 /* DetailPerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880D725E5B9F800DB2183 /* DetailPerfilCell.swift */; };
 		3F2880DD25E5F91F00DB2183 /* DetailPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880DC25E5F91F00DB2183 /* DetailPhotosCell.swift */; };
+		3F2880E225E688B800DB2183 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880E125E688B800DB2183 /* SliderViewController.swift */; };
+		3F2880E725E68CC700DB2183 /* SliderPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880E625E68CC700DB2183 /* SliderPhotoCell.swift */; };
 		3FCEF7CA25E06E6600523D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7C925E06E6600523D79 /* AppDelegate.swift */; };
 		3FCEF7CC25E06E6600523D79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7CB25E06E6600523D79 /* SceneDelegate.swift */; };
 		3FCEF7CE25E06E6600523D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7CD25E06E6600523D79 /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		3F2880D225E5AB9000DB2183 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		3F2880D725E5B9F800DB2183 /* DetailPerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPerfilCell.swift; sourceTree = "<group>"; };
 		3F2880DC25E5F91F00DB2183 /* DetailPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotosCell.swift; sourceTree = "<group>"; };
+		3F2880E125E688B800DB2183 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		3F2880E625E68CC700DB2183 /* SliderPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPhotoCell.swift; sourceTree = "<group>"; };
 		3FCEF7C625E06E6600523D79 /* tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCEF7C925E06E6600523D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCEF7CB25E06E6600523D79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				3FCEF7FD25E06EC200523D79 /* MatchViewController.swift */,
 				3F2880C825E2DCF600DB2183 /* ThisMatchViewController.swift */,
 				3F2880CD25E45B3D00DB2183 /* DetailViewController.swift */,
+				3F2880E125E688B800DB2183 /* SliderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				3FCEF83325E2A61000523D79 /* Loading.swift */,
 				3F2880D725E5B9F800DB2183 /* DetailPerfilCell.swift */,
 				3F2880DC25E5F91F00DB2183 /* DetailPhotosCell.swift */,
+				3F2880E625E68CC700DB2183 /* SliderPhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,11 +355,13 @@
 				3FCEF81B25E19F5F00523D79 /* User.swift in Sources */,
 				3F2880D825E5B9F800DB2183 /* DetailPerfilCell.swift in Sources */,
 				3FCEF82A25E1A6DE00523D79 /* UIImageView.swift in Sources */,
+				3F2880E225E688B800DB2183 /* SliderViewController.swift in Sources */,
 				3FCEF80425E07A7400523D79 /* MatchCardView.swift in Sources */,
 				3FCEF82F25E1B4DD00523D79 /* UIButton.swift in Sources */,
 				3FCEF80D25E07F0E00523D79 /* UIView.swift in Sources */,
 				3F2880C925E2DCF600DB2183 /* ThisMatchViewController.swift in Sources */,
 				3FCEF83425E2A61000523D79 /* Loading.swift in Sources */,
+				3F2880E725E68CC700DB2183 /* SliderPhotoCell.swift in Sources */,
 				3FCEF7CC25E06E6600523D79 /* SceneDelegate.swift in Sources */,
 				3F2880CE25E45B3D00DB2183 /* DetailViewController.swift in Sources */,
 				3F2880D325E5AB9000DB2183 /* DetailHeaderView.swift in Sources */,
