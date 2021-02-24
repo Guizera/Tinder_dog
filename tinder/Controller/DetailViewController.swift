@@ -46,6 +46,7 @@ class DetailViewController: UICollectionViewController {
     let cellId = "cell"
     let headerId = "headerId"
     let perfilId = "perfilId"
+    let photosId = "photosId"
     
     init() {
         super.init(collectionViewLayout: HeaderLayout())
@@ -66,6 +67,7 @@ class DetailViewController: UICollectionViewController {
         
         collectionView.register(DetailHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
         collectionView.register(DetailPerfilCell.self, forCellWithReuseIdentifier: perfilId)
+        collectionView.register(DetailPhotosCell.self, forCellWithReuseIdentifier: photosId)
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
