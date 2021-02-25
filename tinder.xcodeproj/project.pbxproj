@@ -14,6 +14,7 @@
 		3F2880DD25E5F91F00DB2183 /* DetailPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880DC25E5F91F00DB2183 /* DetailPhotosCell.swift */; };
 		3F2880E225E688B800DB2183 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880E125E688B800DB2183 /* SliderViewController.swift */; };
 		3F2880E725E68CC700DB2183 /* SliderPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2880E625E68CC700DB2183 /* SliderPhotoCell.swift */; };
+		3F2881BF25E8489F00DB2183 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F2881BE25E8489F00DB2183 /* README.md */; };
 		3FCEF7CA25E06E6600523D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7C925E06E6600523D79 /* AppDelegate.swift */; };
 		3FCEF7CC25E06E6600523D79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7CB25E06E6600523D79 /* SceneDelegate.swift */; };
 		3FCEF7CE25E06E6600523D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEF7CD25E06E6600523D79 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		3F2880DC25E5F91F00DB2183 /* DetailPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotosCell.swift; sourceTree = "<group>"; };
 		3F2880E125E688B800DB2183 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		3F2880E625E68CC700DB2183 /* SliderPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPhotoCell.swift; sourceTree = "<group>"; };
+		3F2881BE25E8489F00DB2183 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FCEF7C625E06E6600523D79 /* tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCEF7C925E06E6600523D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCEF7CB25E06E6600523D79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		3FCEF7BD25E06E6600523D79 = {
 			isa = PBXGroup;
 			children = (
+				3F2881BE25E8489F00DB2183 /* README.md */,
 				3FCEF7C825E06E6600523D79 /* tinder */,
 				3FCEF7DF25E06E6B00523D79 /* tinderTests */,
 				3FCEF7EA25E06E6B00523D79 /* tinderUITests */,
@@ -322,6 +325,7 @@
 				3FCEF7D625E06E6A00523D79 /* LaunchScreen.storyboard in Resources */,
 				3FCEF7D325E06E6A00523D79 /* Assets.xcassets in Resources */,
 				3FCEF7D125E06E6600523D79 /* Main.storyboard in Resources */,
+				3F2881BF25E8489F00DB2183 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
